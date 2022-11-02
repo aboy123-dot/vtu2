@@ -1,0 +1,400 @@
+/** background-image:linear-gradient(to bottom, rgba(64, 65, 70, 0.52), rgba(117,19,93, 0.73)), url(../images/Best-Football-Prediction-Sites.webp);
+  background-size: cover;
+  background-position: center;**/
+  
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+  body{
+    font-family: 'Josefin Sans', sans-serif;;
+    margin: 0;
+   
+  }
+.burger img, .burgerclose img{
+    width: 30px;
+
+
+}
+
+.burgerclose{
+    display: none;
+}
+.burgerclose img{
+    background-color: white;
+}
+.menubar{
+    height: 400px;
+    background-image:linear-gradient(to bottom, rgba(64, 65, 70, 0.52), rgba(117,19,93, 0.73)), url(../image/pexels-photo-583847.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+   
+    
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar ul li{
+    margin-left: 10px;
+    margin-top: -10px;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+.burger img{
+    background-color: white;
+}
+.logo img{
+    width: 50px;
+    margin-top: -10px;
+}
+.burger{
+    display: none;
+}
+.banner{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-image{
+    width: 40%;
+   
+    
+}
+.banner-image img{
+    animation-name: forward;
+    animation-duration: 0.2s;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+@keyframes forward{
+   from{
+    right: 200px;
+   }to{
+    left: 200px;
+   }
+}
+
+    
+.banner-text{
+    width: 40%;
+    color: white;
+    text-align: center;
+}
+.banner-text button{
+    width: 100px;
+    height: 35px;
+    
+     padding: 5px;
+     background-color: black;
+     color: white;
+     border-radius: 10px;
+}
+.banner-text button:hover{
+    background-color: rgba(0, 0, 0, 0.527);
+}
+.footer{
+    height: 200px;
+    background-image:linear-gradient(to bottom, rgba(9, 12, 22, 0.52), rgba(117,19,93, 0.73)), url(../image/pexels-photo-583847.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+color: rgb(27, 233, 27);
+}
+.footer-link{
+    display: flex;
+
+}
+.footer-logo img{
+    width: 70px;
+}
+.footer-link div{
+    margin: 4px;
+    
+}
+.footer-link div a{
+    text-decoration: none;
+    color: white;
+}
+.flex{
+    
+    background-color: rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
+    
+}
+.sectionone{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    
+}
+hr{
+    border: 2px solid rgb(11, 240, 79);
+    width: 100px;
+    
+}
+.card{
+    display: flex;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    padding: 2px;
+    padding-top: 20px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.548);
+   animation-name: fill;
+   animation-duration: 2s;
+   
+    
+}
+.sectiontwo{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    background-image:linear-gradient(to bottom, rgba(9, 12, 22, 0.52), rgba(117,19,93, 0.73)), url(../image/pexels-photo-4560060.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    margin-top: 10px;
+}
+.sectionthree{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sectionthree-image, .sectionthree-text{
+    width: 40%;
+    text-align: justify;
+}
+.sectionthree-image img{
+    width: 250px;
+}
+.box1{
+    margin: 10px;
+    width: 100px;
+    color: white;
+}
+@keyframes fill{
+   from{
+    margin-top: 10px;
+   }
+   to{
+    margin-top: 30px;
+   }
+}
+.box a{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+
+}
+.p{
+    font-size: 12px;
+}
+.box:hover{
+  background-color: aquamarine;
+  position: relative;
+  top: -10px;
+  animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.25s  ease-in-out;
+}
+.box div{
+    font-size: 12px;
+}
+.box div img{
+    width: 100px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.678);
+    border: none;
+
+}
+
+@media screen and (max-width: 768px){
+    .burger{
+        display: block;
+    }
+   .navbar{
+    display: none;
+   }
+   .d-none{
+    display: block;
+    width: 200px;
+   
+   }
+    .d-none ul{
+        display: flex;
+        flex-direction: column;
+       
+        height: 100vh;
+       max-width:100%;
+       width: 90%;
+        
+        position: fixed;
+        left: 100px;
+        top: 25px;
+        overflow: hidden;
+        
+        background-color: rgba(15, 15, 15, 0.733);
+        animation-name: example;
+        animation-duration: 0.2s;
+        animation-direction: normal;
+        transition: all 0.2s ease-in-out;
+        z-index: 2;
+        
+        
+       
+
+        
+    }
+    .d-none ul li{
+        margin: 10px;
+        width: 100%;
+    }
+    .d-none li a{
+        color: rgb(94, 14, 14);
+    }
+    @keyframes example{
+       from{
+        left: 0px;
+       }to{
+        left: 100px;
+       }
+    }
+   
+    
+    .d-none li{
+        padding: 10px;
+        width: 100%;
+        
+        
+
+    }
+    .d-none li:hover{
+        background-color: black;
+    }
+  .burger img{
+   box-shadow: 0px 3px 3px rgb(233, 162, 217) ;
+  }
+.burger img:hover{
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 3px 3px rgba(114, 106, 112, 0.411) ;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+    
+}
+.banner-image, banner-text{
+    width: 300px;
+   
+}
+
+.banner-text h2{
+    width: 300px;
+    text-align: center;
+    
+   
+}
+.banner-text{
+    text-align: center;
+    
+    width: 100%;
+}
+.banner-text button{
+    
+    width: 100px;
+    
+     padding: 5px;
+     background-color: black;
+     color: white;
+     border-radius: 10px;
+}
+.banner-image img{
+    width: 100%;
+}
+.footer{
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    height: 250px;
+    
+    
+}
+.footer-link{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+.sectionone{
+    height: 1200px;
+}
+.box{
+    width:100%;
+    margin: 10px;
+}
+.sectiontwo{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    text-align: center;
+}
+.sectionthree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectionthree-image img{
+    width: 200px;
+    margin: auto;
+}
+
+.sectionthree-text{
+    width: 100%;
+}
+
+
+}
